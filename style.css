@@ -1,0 +1,83 @@
+
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Sfondo */
+.background{
+  background-image: url(background.jpg);
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+  height: 100vh;
+}
+
+/* Contenitore trasparante */
+.container{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0,0,0,50%);
+  border-radius: 20px 20px 20px 20px;
+  padding: 5%;
+}
+
+/* Logo e Pay Off */
+#logo{
+  width: 50%;
+}
+
+header{
+  text-align: center;
+  color: #00D829;
+  font-size: 30px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+}
+
+/* Navigatore */
+nav{
+  background-color: #00D829;
+  padding: 8px;
+  text-align: center;
+}
+
+/* Corpo della pagina */
+main{
+  color: white;
+  width: 80%;
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+}
+section{
+  margin-top: 20px;
+}
+/* Tipologia Monopattino */
+input + span{
+  font-size: 25px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+}
+
+/* Stato carica Arancione */
+.stato_carica1{
+  background-color: #ECB664;
+  border-radius: 5px 5px 5px 5px;
+  width: 350px;
+  height: 30px;
+}
+/* Stato carica Verde */
+.stato_carica2{
+  background-color: #00BB2D;
+  border-radius: 5px 5px 5px 5px;
+  width: 500px;
+  height: 30px;
+}
+/* Stato carica Rosso */
+.stato_carica3{
+  background-color: #BE393C;
+  border-radius: 5px 5px 5px 5px;
+  width: 150px;
+  height: 30px;
+}
